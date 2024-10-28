@@ -1,0 +1,12 @@
+{
+  "name": "vercel-password-api",
+  "version": "1.0.0",
+  "description": "A simple password management API for Vercel with GitHub storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

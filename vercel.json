@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/passwords/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/passwords/create",
+      "dest": "/api/passwords/create.js"
+    },
+    {
+      "src": "/api/passwords/set",
+      "dest": "/api/passwords/set.js"
+    },
+    {
+      "src": "/api/passwords/get",
+      "dest": "/api/passwords/get.js"
+    },
+    {
+      "src": "/api/passwords/delete",
+      "dest": "/api/passwords/delete.js"
+    },
+    {
+      "src": "/api/passwords/deletedb",
+      "dest": "/api/passwords/deletedb.js"
+    }
+  ]
+}
