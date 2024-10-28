@@ -1,7 +1,7 @@
 // utils/githubApi.js
 import fetch from 'node-fetch';
 
-const GITHUB_REPO = 'Samhey-debug/KeySystem';
+const GITHUB_REPO = 'Samhey-debug/NinjaKey';
 const GITHUB_BRANCH = 'main';
 
 async function githubRequest(method, path, body) {
